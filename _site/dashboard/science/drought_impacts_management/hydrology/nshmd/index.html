@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    
+    <meta name="robots" content="noindex" />
+    
+
+    <title>National scale hydrological modelling of droughts</title>
+    
+    <link rel="shortcut icon" href="/mariusdroughtproject.org/favicon.ico">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!---<link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/foundation-6.2.3-custom.min.css">-->
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/foundation-6.2/foundation.min.css">
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/font-awesome-4.7.0/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/main.css"> <!-- app -->
+
+    
+      <!-- css for SECTION (layout): science -->
+      <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/science.css" media="screen">
+    
+
+    
+
+    
+
+    
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/nv.d3.css">
+    <script src="/mariusdroughtproject.org/assets/js/vendor/d3.v3.js"></script>
+    <script src="/mariusdroughtproject.org/assets/js/vendor/nv.d3.js"></script>
+    
+
+</head>
+
+<body class="science">
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+  <header class="expanded row">
+	<div class="large-6 columns">
+		<a href=""><img src="/mariusdroughtproject.org/assets/img/logos/marius.png" alt="MaRIUS project home"></a>
+	</div>
+    <div class="large-6 columns">
+    
+    MaRIUS - Science
+    </div>
+</header>
+
+<!--<div class="row section-bar">
+	<div class="large-3 columns"></div>
+	<div class="large-9 columns section-ident"></div>
+</div>-->
+  
+  <!--<div id="" class="expanded row">-->
+  <div id="" class="row">
+
+    <div class="large-3 medium-3 columns nav">
+
+    <div class="row">
+      <div class="large-12 columns"></div>
+    </div>
+
+    <ul class="site-nav">
+      <li>
+        <a href="/mariusdroughtproject.org/" alt="home">MaRIUS Project</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    
+      <!-- nav for section: science -->
+      <ul class="site-nav">
+
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_climatology/">
+        Meteorological Drought
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a class="active" href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/hydrology/">
+        Hydrology
+        &darr;
+        </a>
+                                                                                                                         
+        <ul>
+            
+            <li class="active">
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/hydrology/nshmd/">National scale modelling</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+            <li >
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/hydrology/idhns/">Integrating drought hydrology to the national scale</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+            <li >
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/hydrology/iirplf/">Process representation for low flows</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+        </ul>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/water_resources/">
+        Water Resources
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/water_quality/">
+        Water Quality
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/agriculture/">
+        Agriculture
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/ecology/">
+        Ecology
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/economy_and_industry/">
+        Economy &amp; Industry
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/das/">
+        Drought and Society
+        &darr;
+        </a>
+        
+
+    </li>
+         
+</ul>
+    
+
+    <hr>
+
+    <ul class="site-nav">
+      <li><a href="/mariusdroughtproject.org/dashboard/"><b>Dashboards</b></a>
+      <li><a href="/mariusdroughtproject.org/dashboard/dpe/what_are_droughts/">Droughts, People and the Environment</a>
+      <li><a href="/mariusdroughtproject.org/dashboard/science/">Science</a>
+    </ul>
+
+    </div>
+
+    <div class="large-9 medium-9 columns content">
+
+      <div class="row">
+        <div class="large-12 columns section-ident"></div>
+      </div>
+
+      <span class="section">Drought Impacts Management > Hydrology</h3></span>
+      <h1>
+      National scale hydrological modelling of droughts
+      </h1>
+
+      <hr>
+
+      <h2 id="introduction">Introduction</h2>
+
+<p>Our aim is to provide enhanced scientific understanding and hydrological modelling capability to represent drought processes at the national scale, for historic, present and future climate conditions. CEH’s national gridded hydrological model Grid-to-Grid (G2G) provides 1km resolution estimates of naturalised river flows across the UK, and while originally developed to simulate and forecast high river flows, is now being assessed during low flow and drought conditions.  A national scale model can maintain a national- or regional-scale water-balance, ensuring coherence between neighbouring catchments/regions and allowing us to assess the potential impact of water management scenarios on drought occurrence and severity at the national scale.</p>
+
+<p><img src="/mariusdroughtproject.org/assets/img/Vicky1.jpg.png" alt="1km x 1km Grid-to-Grid simulated mean monthly river flows for May 1995. Flow output can be produced daily or monthly." width="50%" /></p>
+
+<p>1km x 1km Grid-to-Grid simulated mean monthly river flows for May 1995. Flow output can be produced daily or monthly.</p>
+
+<h2 id="research-methods">Research methods</h2>
+
+<p>Under Marius, G2G will be enhanced to include the effect of abstractions and returns, enabling exploration of drought management scenarios at the national scale. Ongoing work is using model estimates of river flows and soil-moisture, driven by weather observations, to assess change in drought occurrence, duration and severity over the historical period 1910 to 2010. A regional climate model (RCM) also provides an extended simulation of historical weather, allowing us to include the severe droughts that occurred at the end of the 19th Century in our assessments of long-term change. An ensemble of near- and far-future weather outputs from multiple RCM runs will provide the driving data needed to understand how drought occurrence and characteristics might change in the future.</p>
+
+<p><img src="/mariusdroughtproject.org/assets/img/Vicky2.jpg.png" alt="Grid-to-Grid model output (1km x 1km) can provide annual maps of drought severity, intensity, duration and number of drought periods per year for river flow and soil moisture. The example maps shown here are standardised drought severity (river flow) for 1975, 1976 and 1977. They show the most severe drought in each year. The darker the colour the more severe the drought." width="50%" /></p>
+
+<p>Grid-to-Grid model output (1km x 1km) can provide annual maps of drought severity, intensity, duration and number of drought periods per year for river flow and soil moisture. The example maps shown here are standardised drought severity (river flow) for 1975, 1976 and 1977. They show the most severe drought in each year. The darker the colour the more severe the drought.</p>
+
+<h2 id="further-information">Further information</h2>
+
+<h3 id="poster-presentations">Poster presentations</h3>
+
+<ul>
+  <li>Rudd, A., Bell, VA, Kay, AL, and Davies, HN. (2016) “Statistics in Weather and Climate”, Royal Statistical Society meeting, Reading, 21st March 2016.</li>
+  <li>Rudd, A., Bell, VA, Kay, AL, and Davies, HN. (2016) “National-scale hydrological modelling within MaRIUS: preliminary results on historic drought identification and trend analyses (1912-2011)”, The Historic Droughts Symposium, CEH, Wallingford, 22nd March 2016</li>
+  <li>Rudd, A., Bell, VA, Kay, AL, and Davies, HN. (2016) “A long-term national-scale hydrological simulation of river flows across Great Britain”, EGU 2016 (Vienna, 17-22nd April 2016).</li>
+</ul>
+
+<h3 id="journal-paper-in-preparation">Journal Paper in preparation</h3>
+
+<ul>
+  <li>Rudd, A., Bell, VA, Kay, AL, and Davies, HN. (2016) “Hydrological droughts in Great Britain, 1912-2011” (in preparation).</li>
+</ul>
+
+<h2 id="research-team">Research team</h2>
+
+<ul>
+  <li>Victoria Bell (vib@ceh.ac.uk)</li>
+  <li>Alison Rudd</li>
+  <li>Alison Kay</li>
+  <li>Ponnambalam Rameshwaran</li>
+</ul>
+
+
+      
+
+    </div>
+    
+  </div>
+  
+<footer class="expanded row">
+	<div class="large-12 columns">
+	Supported by NERC | &copy; 2016 MaRIUS, School of Geography and the Environment, Oxford
+	</div>
+</footer>
+
+
+<script src="/mariusdroughtproject.org/assets/js/vendor/foundation-6.2/jquery.js"></script>
+<script src="/mariusdroughtproject.org/assets/js/vendor/foundation-6.2/foundation.min.js"></script>
+
+<!--<script src="/mariusdroughtproject.org/assets/js/vendor//jquery_foundation-6.2.3-custom.min.js"></script>
+<script src="/mariusdroughtproject.org/assets/js/vendor/foundation-6.2.3-custom.min.js"></script>
+<script src="/mariusdroughtproject.org/assets/js/vendor/app_foundation-6.2.3-custom.min.js"></script>-->
+
+<script src="/mariusdroughtproject.org/assets/js/main.js"></script> <!-- app -->
+
+
+ 
+
+
+<div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+    <!--<i class="fa fa-2x fa-arrow-up"></i>-->
+		<i class="fa fa-2x fa-arrow-up"></i>
+	</span>
+</div>
+
+</body>
+</html>

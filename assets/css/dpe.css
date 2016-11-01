@@ -1,0 +1,13 @@
+/* management.css */
+
+@import url('main.css');
+
+/* section color: #6CC4EA */
+
+header {}
+
+.section-ident {
+    height: 15px;
+    margin-bottom: 20px;
+    background-color: #6CC4EA;
+}

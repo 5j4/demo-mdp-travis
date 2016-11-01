@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" dir="ltr"><!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    
+    <meta name="robots" content="noindex" />
+    
+
+    <title>Drought datasets and how to access them</title>
+    
+    <link rel="shortcut icon" href="/mariusdroughtproject.org/favicon.ico">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!---<link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/foundation-6.2.3-custom.min.css">-->
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/foundation-6.2/foundation.min.css">
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/font-awesome-4.7.0/css/font-awesome.min.css" media="screen">
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/main.css"> <!-- app -->
+
+    
+      <!-- css for SECTION (layout): science -->
+      <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/science.css" media="screen">
+    
+
+    
+
+    
+
+    
+    <link rel="stylesheet" href="/mariusdroughtproject.org/assets/css/vendor/nv.d3.css">
+    <script src="/mariusdroughtproject.org/assets/js/vendor/d3.v3.js"></script>
+    <script src="/mariusdroughtproject.org/assets/js/vendor/nv.d3.js"></script>
+    
+
+</head>
+
+<body class="science">
+<!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+  <header class="expanded row">
+	<div class="large-6 columns">
+		<a href=""><img src="/mariusdroughtproject.org/assets/img/logos/marius.png" alt="MaRIUS project home"></a>
+	</div>
+    <div class="large-6 columns">
+    
+    MaRIUS - Science
+    </div>
+</header>
+
+<!--<div class="row section-bar">
+	<div class="large-3 columns"></div>
+	<div class="large-9 columns section-ident"></div>
+</div>-->
+  
+  <!--<div id="" class="expanded row">-->
+  <div id="" class="row">
+
+    <div class="large-3 medium-3 columns nav">
+
+    <div class="row">
+      <div class="large-12 columns"></div>
+    </div>
+
+    <ul class="site-nav">
+      <li>
+        <a href="/mariusdroughtproject.org/" alt="home">MaRIUS Project</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    
+      <!-- nav for section: science -->
+      <ul class="site-nav">
+
+    
+    <li>
+        <a class="active" href="/mariusdroughtproject.org/dashboard/science/drought_climatology/">
+        Meteorological Drought
+        &darr;
+        </a>
+                                                                                                                         
+        <ul>
+            
+            <li >
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_climatology/20c/">20th Century</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+            <li >
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_climatology/21c/">21st Century</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+            <li >
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_climatology/drivers_of_drought/">Large-scale drivers of UK drought</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+            <li class="active">
+                <a href="/mariusdroughtproject.org/dashboard/science/drought_climatology/dd/">Drought datasets</a>
+
+                
+                <ul>     
+                    
+                </ul>
+                
+
+            </li>
+            
+        </ul>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/hydrology/">
+        Hydrology
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/water_resources/">
+        Water Resources
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/water_quality/">
+        Water Quality
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/agriculture/">
+        Agriculture
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/ecology/">
+        Ecology
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/economy_and_industry/">
+        Economy &amp; Industry
+        &darr;
+        </a>
+        
+
+    </li>
+    
+    <li>
+        <a  href="/mariusdroughtproject.org/dashboard/science/drought_impacts_management/das/">
+        Drought and Society
+        &darr;
+        </a>
+        
+
+    </li>
+         
+</ul>
+    
+
+    <hr>
+
+    <ul class="site-nav">
+      <li><a href="/mariusdroughtproject.org/dashboard/"><b>Dashboards</b></a>
+      <li><a href="/mariusdroughtproject.org/dashboard/dpe/what_are_droughts/">Droughts, People and the Environment</a>
+      <li><a href="/mariusdroughtproject.org/dashboard/science/">Science</a>
+    </ul>
+
+    </div>
+
+    <div class="large-9 medium-9 columns content">
+
+      <div class="row">
+        <div class="large-12 columns section-ident"></div>
+      </div>
+
+      <span class="section">Drought Climatology</h3></span>
+      <h1>
+      Drought datasets and how to access them
+      </h1>
+
+      <hr>
+
+      <h2 id="introduction">Introduction</h2>
+
+<p>Two types of climate datasets have been generated within MaRIUS: the <a href="/mariusdroughtproject.org/dashboard/science/20c/">Hindcast</a> and the synthetic event set (<a href="/mariusdroughtproject.org/dashboard/science/20c/">baseline</a> and <a href="/mariusdroughtproject.org/dashboard/science/21c/">future</a>). These are currently available to <abbr title="Managing the Risks, Impacts and Uncertainties of drought and water Scarcity">MaRIUS</abbr> researchers and in time they will be freely available to anyone. This page describes these in greater detail and provides information about data format, access and interpretation.</p>
+
+<h2 id="dataset-1-hindcast">Dataset 1: Hindcast</h2>
+
+<p>This product uses the <a href="go.usa.gov/XTd ; portal.nersc.gov/project/20C_Reanalysis/">20th-Century Reanalysis version 2c product</a> to drive the RCM HadRM3P at its boundaries. In this case, the atmospheric circulation in an RCM closely follows the driving data. Hence for the Hindcast product, since the reanalysis product is a reconstruction of reality, atmospheric circulation and thereby also the sequences of weather events should be close to real events (albeit with model biases). <strong>Therefore, this is a model-based 6-hourly reconstruction of the weather that occurred in the past</strong>(1851-2014, with an experimental reconstruction of the 20 years preceding this also included in the simulation but not being made available).</p>
+
+<p>Note that: 
+1.	20CR consists of 56 ensemble members to sample uncertainty in the reconstruction where the surface pressure observations used to constrain the reanalysis are sparse. Each member is equally plausible and hence a single ensemble member (number 37) was chosen at random for the <abbr title="Managing the Risks, Impacts and Uncertainties of drought and water Scarcity">MaRIUS</abbr> experiments.
+2.	The first 20 years (1830-1850) were discarded as spin-up as these used climatological sea-surface temperatures (rather than time-varying observed estimates used from 1850 onwards).
+3.	Years 2013 and 2014 switch to another sea surface temperature data set (Reynolds data set), because the data used for previous years (SODAsi.2 with the high latitudes corrected to COBE-SST2) do not go beyond 2012. More information is available <a href="http://www.esrl.noaa.gov/psd/data/gridded/data.20thC_ReanV2c.html">here</a>.</p>
+
+<h2 id="dataset-2-synthetic-event-set">Dataset 2: Synthetic event set</h2>
+
+<p>For this product, a global climate model, (HadAM3P, the parent global model of HadRMP), driven by observed sea surface temperature, is used to drive HadRM3P. Together, these two models form the climate modelling system known as <a href="http://www.climateprediction.net/weatherathome/">weather@home</a>,  which can be run by volunteers around the world on their personal computers, using a volunteer distributed computing system. This unique capability allows to generate a large number of model simulations and, thus, a large number of droughts that could have occurred in the past or could occur in the future. For MaRIUS, a new version of <a href="http://www.climateprediction.net/weatherathome/">weather@home (version 2)</a>  has been implemented.</p>
+
+<p>The event set includes 3 sub-products that are similar in format/content but that span different time periods. These provide <strong>a range of possible weather time series that</strong>:</p>
+
+<ol>
+  <li>could have occurred in the past (‘<strong>Baseline</strong>’, 1900-2006, of which years 1975-2004 are to be used to compare to the future time slices).</li>
+  <li>might occur in the near future (‘<strong>Near Future</strong>’, 2020-2049 under emission scenarios RCP8.5).</li>
+  <li>might occur in the far future (‘<strong>Far Future</strong>’, 2070-2099) under emission scenarios RCP8.5). 
+100 time series has been generated for each time slice. The 30-year future time slices are based on years 1975-2004 from the baseline (ocean variability, volcanoes, etc). Hence, the reference period in the baseline which the future time slices are to be compared to is 1975-2004.</li>
+</ol>
+
+<p>As described <a href="/mariusdroughtproject.org/dashboard/science/21c/">Science dashboard page</a>, five sets of 100 near future time series have been generated using five sets of sea surface temperature projections: one average scenario and four alternative scenarios which combine high and low climate sensitivity to high and low changes in North Atlantic sea surface temperature gradient. The same applies to the far future time slice.</p>
+
+<h2 id="variables-available-from-both-datasets">Variables available from both datasets</h2>
+
+<p>Table 1 shows the list of variables available in both datasets and their temporal resolution. A year consists of 360 days (30 days per month) in the event set, while the Hindcast product is based on the standard calendar.</p>
+
+<p>HadRM3P does not directly provide PET as an output variable. However, PET estimates are provided in the dataset. These are computed from other variables and based on a Penman-Monteith formulation, and as consistent as possible with the MORECS estimates. Two PET estimates are provided for the future time slices: one without any changes in stomatal resistance relative to the baseline values (“pepm”), and one with values adjusted to account for CO2 fertilization effect (“pepm_adjrs”).</p>
+
+<p><img src="/mariusdroughtproject.org/assets/img/Benoit1b.png" alt="List of variables available for each product and temporal resolution. The table includes for each variable: variable name (used in the NetCDF files name and NetCDF variable name), description, available temporal resolution in the data sets (20CR and synthetic events sets), and the field code. " /></p>
+
+<h2 id="data-format">Data format</h2>
+
+<p>The NetCDF data format is used to store the data. Data is generated on a rotated longitude-latitude grid (the Cordex-EU domain at 0.22 degrees; over the UK this corresponds to the grid used in UKCP09).</p>
+
+<h2 id="data-access">Data access</h2>
+
+<p>Data is currently available to <abbr title="Managing the Risks, Impacts and Uncertainties of drought and water Scarcity">MaRIUS</abbr> researchers. The aim is to make them freely available early 2017. This page will be updated in due time, with information on where to find the data.</p>
+
+<h2 id="data-citation">Data citation</h2>
+
+<p>How the data should be cited will be stated here when releasing the dataset.</p>
+
+<h2 id="further-information">Further information</h2>
+
+<h3 id="papers">Papers:</h3>
+<ul>
+  <li>weather@home 2 description and validation paper currently in review: link to http://www.geosci-model-dev-discuss.net/gmd-2016-239/</li>
+  <li>Further papers with detailed validation and analyses of the event set are being prepared</li>
+</ul>
+
+<h3 id="podcasts">Podcasts:</h3>
+<ul>
+  <li>The climate datasets, particularly the drought event set, being generated in the <abbr title="Managing the Risks, Impacts and Uncertainties of drought and water Scarcity">MaRIUS</abbr> project: https://youtu.be/i4kApYaeQpQ</li>
+  <li>Western US drought attribution, and the generation of synthetic multi-year UK drought events for risk-based impact studies:
+https://youtu.be/ybkZ7TAh9wA</li>
+</ul>
+
+
+
+      
+
+    </div>
+    
+  </div>
+  
+<footer class="expanded row">
+	<div class="large-12 columns">
+	Supported by NERC | &copy; 2016 MaRIUS, School of Geography and the Environment, Oxford
+	</div>
+</footer>
+
+
+<script src="/mariusdroughtproject.org/assets/js/vendor/foundation-6.2/jquery.js"></script>
+<script src="/mariusdroughtproject.org/assets/js/vendor/foundation-6.2/foundation.min.js"></script>
+
+<!--<script src="/mariusdroughtproject.org/assets/js/vendor//jquery_foundation-6.2.3-custom.min.js"></script>
+<script src="/mariusdroughtproject.org/assets/js/vendor/foundation-6.2.3-custom.min.js"></script>
+<script src="/mariusdroughtproject.org/assets/js/vendor/app_foundation-6.2.3-custom.min.js"></script>-->
+
+<script src="/mariusdroughtproject.org/assets/js/main.js"></script> <!-- app -->
+
+
+ 
+
+
+<div class="scroll-top-wrapper ">
+	<span class="scroll-top-inner">
+    <!--<i class="fa fa-2x fa-arrow-up"></i>-->
+		<i class="fa fa-2x fa-arrow-up"></i>
+	</span>
+</div>
+
+</body>
+</html>

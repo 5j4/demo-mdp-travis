@@ -1,0 +1,22 @@
+callback([
+  {
+    "text": "Base URL",
+    "href": "{{ site.baseurl }}/"
+  },
+
+  {
+    "text": "Assets URL",
+    "href": "{{ site.assets_url }}/"
+  },
+
+  {
+    "text": "Science dashboard page",
+    "href": "{{ site.science_url }}/"
+  },
+
+  {
+    "text": "Management dashboard page",
+    "href": "{{ site.dpe_url }}/"
+  }
+
+])

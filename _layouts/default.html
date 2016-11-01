@@ -1,0 +1,70 @@
+---
+layout: nil
+
+section: default
+noindex: true
+---
+{% include _site_top.html %}
+  
+  <!--<div id="" class="expanded row">-->
+  <div id="" class="row">
+
+    <div class="large-3 medium-3 columns nav">
+
+    <div class="row">
+      <div class="large-12 columns"></div>
+    </div>
+
+    <ul class="site-nav">
+      <li>
+        <a href="{{ site.baseurl }}/" alt="home">MaRIUS Project</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    {% if layout.section %}
+      <!-- nav for section: {{ layout.section }} -->
+      {% include navigation_{{ layout.section }}.html section=layout.section %}
+    {% else %}
+      {% include nav_default.html %}
+    {% endif %}
+
+    <hr>
+
+    <ul class="site-nav">
+      <li><a href="{{ site.baseurl }}/dashboard/"><b>Dashboards</b></a>
+      <li><a href="{{ site.dpe_url }}/what_are_droughts/">Droughts, People and the Environment</a>
+      <li><a href="{{ site.science_url }}/">Science</a>
+    </ul>
+
+    </div>
+
+    <div class="large-9 medium-9 columns content">
+
+      <div class="row">
+        <div class="large-12 columns section-ident"></div>
+      </div>
+
+      <span class="section">{{ page.subsection }}</h3></span>
+      <h1>
+      {% if page.heading %}{{ page.heading }}{% else %}{{ page._title }}{% endif %}
+      </h1>
+
+      <hr>
+
+      {{ content }}
+
+      {% if page.related_links %}
+        <hr>
+        <h2>Related links</h2>
+        {% for link in page.related_links %}
+        <a href="{{ link.url | replace: '!science_url!', site.science_url | replace: '!dpe_url!', site.dpe_url }}" {% if link.external %}target="_blank"{% endif %}>{{ link.name }}</a><br>
+        {% endfor %}
+      {% endif %}
+
+    </div>
+    
+  </div>
+  
+{% include _site_bottom.html %}
